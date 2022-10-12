@@ -3,6 +3,6 @@
 require_relative "atethechon/version"
 
 module Atethechon
-  class Error < StandardError; end
-  # Your code goes here...
 end
+
+require_relative "atethechon/parsers"
