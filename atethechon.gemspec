@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "countries"
   spec.add_dependency "nokogiri"
 
   spec.add_development_dependency "rspec"
