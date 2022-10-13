@@ -14,15 +14,10 @@ module Atethechon
           name: "Saroeun Bou",
           email: "sbou@worldbank.org",
           region: "East Asia and Pacific",
-          phone_number: "+855 23 861 315"
+          phone_number: "+855 23 861 315",
+          organization: "World Bank"
         )
-        expect(result.find { |contact| contact.country == "Vietnam" }).to have_attributes(
-          country: "Vietnam",
-          name: "Ngan Hong Nguyen",
-          email: "nnguyen5@worldbank.org",
-          region: "East Asia and Pacific",
-          phone_number: "+84 4 3934 6600"
-        )
+        expect(result.find { |contact| contact.country == "Vietnam" }.phone_number).to eq("+84 4 3934 6600")
       end
     end
   end

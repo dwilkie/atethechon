@@ -10,7 +10,8 @@ module Atethechon
             phone_number: "+855 71 5222 222",
             country: "Cambodia",
             email: "bobchan@example.com",
-            region: "East Asia and Pacific"
+            region: "East Asia and Pacific",
+            organization: "World Bank"
           )
         ]
 
@@ -25,7 +26,8 @@ module Atethechon
                   "phone_number" => "+855 71 5222 222",
                   "country" => "Cambodia",
                   "email" => "bobchan@example.com",
-                  "region" => "East Asia and Pacific"
+                  "region" => "East Asia and Pacific",
+                  "organization" => "World Bank"
                 }
               ]
             }

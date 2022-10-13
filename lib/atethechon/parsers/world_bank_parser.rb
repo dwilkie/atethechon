@@ -16,6 +16,7 @@ module Atethechon
     }.freeze
 
     ORGANIZATION_IDENTIFIER = "world_bank".freeze
+    ORGANIZATION_NAME = "World Bank".freeze
     CONTACTS_URL = "https://www.worldbank.org/en/region/%<region_id>s/contacts".freeze
     COUNTRY_NAMES = ISO3166::Country.all.map.freeze
     MANUAL_LOCATIONS_MAPPING = {
@@ -52,6 +53,7 @@ module Atethechon
 
     def build_contact(data, region)
       contact = parse_contact_data(data)
+      contact.organization = ORGANIZATION_NAME
       contact.region = region
       contact
     end
