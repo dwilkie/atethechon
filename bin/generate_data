@@ -6,7 +6,6 @@
 
 require "bundler/setup"
 require "atethechon"
-require "pathname"
 require "yaml"
 
 File.write(
