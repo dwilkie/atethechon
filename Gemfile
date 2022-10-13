@@ -7,9 +7,10 @@ gemspec
 
 gem "rake", "~> 13.0"
 
+gem "bump"
 gem "countries"
 gem "nokogiri"
+gem "phony"
 gem "pry"
 gem "rspec"
 gem "rubocop"
-gem "phony"
