@@ -2,8 +2,6 @@ PATH
   remote: .
   specs:
     atethechon (0.1.0)
-      countries
-      nokogiri
 
 GEM
   remote: https://rubygems.org/
@@ -20,6 +18,7 @@ GEM
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
+    phony (2.20.1)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -62,10 +61,13 @@ PLATFORMS
 
 DEPENDENCIES
   atethechon!
+  countries
+  nokogiri
+  phony
   pry
   rake (~> 13.0)
   rspec
-  rubocop (~> 1.21)
+  rubocop
 
 BUNDLED WITH
    2.3.23

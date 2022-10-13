@@ -2,6 +2,7 @@ require "nokogiri"
 require "open-uri"
 require "yaml"
 require "countries"
+require "phony"
 
 module Atethechon
   class WorldBankParser
@@ -14,6 +15,7 @@ module Atethechon
       sar: "South Asia"
     }.freeze
 
+    ORGANIZATION_IDENTIFIER = "world_bank".freeze
     CONTACTS_URL = "https://www.worldbank.org/en/region/%<region_id>s/contacts".freeze
     COUNTRY_NAMES = ISO3166::Country.all.map.freeze
     MANUAL_LOCATIONS_MAPPING = {
@@ -25,23 +27,19 @@ module Atethechon
       "lao pdr" => "LA"
     }.freeze
 
-    Contact = Struct.new(:name, :email, :location, :region, keyword_init: true)
-
-    def initialize; end
-
     def parse
-      REGIONS.each_with_object([]) do |(region_id, region_name), result|
-        page = fetch_contacts_page(region_id)
-
-        each_contact_on(page) do |contact_data|
-          contact = parse_contact_data(contact_data)
-          contact.region = region_name
-          result << contact
-        end
-      end
+      fetch_contacts
     end
 
     private
+
+    def fetch_contacts
+      REGIONS.each_with_object([]) do |(region_id, region_name), result|
+        page = fetch_contacts_page(region_id)
+
+        each_contact_on(page) { |data| result << build_contact(data, region_name) }
+      end
+    end
 
     def fetch_contacts_page(region_id)
       contacts_url = format(CONTACTS_URL, region_id:)
@@ -52,14 +50,36 @@ module Atethechon
       page.xpath("//*[contains(@class, 'c14v1-contacts-row')]//*[contains(@class, 'c14v1-contacts')]").each(&block)
     end
 
+    def build_contact(data, region)
+      contact = parse_contact_data(data)
+      contact.region = region
+      contact
+    end
+
     def parse_contact_data(data)
       heading = data.xpath(".//*[substring-after(name(), 'h') > 0]/text()").text.strip
       location = data.xpath(".//*[contains(@class, 'location')]/text()").text.strip
       name = data.xpath(".//*[contains(@class, 'name')]/text()").text.strip.split(/\s+/).join(" ")
       email = data.xpath(".//a[contains(@href, 'mailto:')]/@href").text.sub(/\Amailto:/, "")
-      location = resolve_location(heading, location)
+      phone_number = data.xpath(".//*[contains(text(), 'Tel')]/text()").text
+                         .gsub(/Tel\s*:/i, "")
+                         .gsub(/ext\s*\d+/i, "")
+                         .gsub(/\D+/, "").strip
 
-      Contact.new(name:, email:, location:)
+      Contact.new(
+        name:,
+        email:,
+        country: resolve_location(heading, location),
+        phone_number: format_phone_number(phone_number)
+      )
+    end
+
+    def format_phone_number(number)
+      return if number.empty?
+
+      Phony.format(number)
+    rescue Phony::FormattingError
+      number
     end
 
     def resolve_location(*names)

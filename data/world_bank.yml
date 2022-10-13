@@ -1,0 +1,633 @@
+---
+world_bank:
+  contacts:
+  - name: Svetlana Markova
+    email: smarkova@worldbankgroup.org
+    country:
+    phone_number: "+1 (202) 473-3504"
+    region: Africa
+  - name: Daniella van Leggelo-Padilla
+    email: dvanleggelo@worldbank.org
+    country:
+    phone_number: "+1 (202) 473-4989"
+    region: Africa
+  - name: Artem Kolesnikov
+    email: akolesnikov@worldbank.org
+    country:
+    phone_number:
+    region: Africa
+  - name: Ramatoulaye George-Alleyne
+    email: afrmultimedia@worldbank.org
+    country:
+    phone_number:
+    region: Africa
+  - name: Wilson Mbanino Piassa
+    email: wpiassa@worldbank.org
+    country: Angola
+    phone_number: "+244 22 239 4677"
+    region: Africa
+  - name: Yao Gnona Afangbedji
+    email: yafangbedji@worldbank.org
+    country: Benin
+    phone_number: "+229 2130 5857"
+    region: Africa
+  - name: Oarabile Minky Moilwa
+    email: omatebejane@worldbank.org
+    country: Botswana
+    phone_number: "+267 31 054 65"
+    region: Africa
+  - name: Lionel Yaro
+    email: lyaro@worldbank.org
+    country: Burkina Faso
+    phone_number: "+226 5049 6300"
+    region: Africa
+  - name: Innocent Nsabimana
+    email: insabimana@worldbank.org
+    country: Burundi
+    phone_number: "+257 2220 6200"
+    region: Africa
+  - name: Odilia Renata Hebga
+    email: ohebga@worldbank.org
+    country: Cameroon
+    phone_number: "+237 222 50 80 45"
+    region: Africa
+  - name: Marco Antonio Medina Silva
+    email: mmedinasilva@worldbank.org
+    country: Cabo Verde
+    phone_number: "+238 260 9600"
+    region: Africa
+  - name: Pisteurpits Boris Martial Ngouagouni
+    email: pngouagouni@worldbank.org
+    country: Central African Republic
+    phone_number: "+236 2161 6168"
+    region: Africa
+  - name: Edmond Dingamhoudou
+    email: edingamhoudou@worldbank.org
+    country: Chad
+    phone_number: "+237 222 03 81 5"
+    region: Africa
+  - name: Diana Styvanley
+    email: dstyvanley@worldbank.org
+    country: Comoros
+    phone_number: "+261 32 05 001 27"
+    region: Africa
+  - name: Franck Sydney Bitemo
+    email: fbitemo@worldbank.org
+    country: Congo, The Democratic Republic of the
+    phone_number: "+243 08 170 05215"
+    region: Africa
+  - name: Franck Sidney Chrysantheme Bitemo
+    email: congoinfo@worldbank.org
+    country: Congo
+    phone_number: "+242 0567 50699"
+    region: Africa
+  - name: Enoh N'dri N'guessan
+    email: endri@worldbank.org
+    country: Côte d'Ivoire
+    phone_number: "+225 22 40 04 00"
+    region: Africa
+  - name: Odilia Renata Hebga
+    email: ohebga@worldbank.org
+    country: Equatorial Guinea
+    phone_number: "+237 222 50 80 45"
+    region: Africa
+  - name: Kafu Kofi Tsikata
+    email: Ktsikata@worldbank.org
+    country: Eritrea
+    phone_number: "+1 (202) 473-1948"
+    region: Africa
+  - name: Gelila Woodeneh
+    email: gwoodeneh@worldbank.org
+    country: Ethiopia
+    phone_number: '0115176000'
+    region: Africa
+  - name: Odilia R. Hebga
+    email: ohebga@worldbank.org
+    country: Gabon
+    phone_number: "+237 222 50 80 45"
+    region: Africa
+  - name: Haddija Jawara
+    email: hjawara1@worldbank.org
+    country: Gambia
+    phone_number: "+220 449 8089"
+    region: Africa
+  - name: Kennedy Fosu
+    email: kfosu@worldbank.org
+    country: Ghana
+    phone_number: "+233 30 221 4142"
+    region: Africa
+  - name: Enoh N'dri N'guessan
+    email: endri@worldbank.org
+    country: Guinea
+    phone_number: "+224 624 93 30 08"
+    region: Africa
+  - name: Mademba Ndiaye
+    email: mademba@worldbank.org
+    country: Guinea-Bissau
+    phone_number: "+221 3385 94140"
+    region: Africa
+  - name: Keziah Muthembwa
+    email: Kenyainfo@worldbank.org
+    country: Kenya
+    phone_number: "+254 20 2936000"
+    region: Africa
+  - name: Elita Banda
+    email: ebanda@worldbankgroup.org
+    country: Lesotho
+    phone_number: "+266 2221 7000"
+    region: Africa
+  - name: Michael Nyumah Sahr
+    email: msahr@worldbank.org
+    country: Liberia
+    phone_number: "+231 8866 069 67886514321"
+    region: Africa
+  - name: Diana Styvanley
+    email: dstyvanley@worldbank.org
+    country: Madagascar
+    phone_number: "+261 32 05 001 27"
+    region: Africa
+  - name: Henry Chimbali
+    email: hchimbali@worldbank.org
+    country: Malawi
+    phone_number: "+265 1770 611"
+    region: Africa
+  - name: Edmond Dingamhoudou
+    email: edingamhoudou@worldbank.org
+    country: Mali
+    phone_number: "+223 2070 2206"
+    region: Africa
+  - name: Loana Billeux
+    email: lbilleux@worldbank.org
+    country: Mauritania
+    phone_number: "+222 4525 1017"
+    region: Africa
+  - name: Diana Styvanley
+    email: dstyvanley@worldbank.org
+    country: Mauritius
+    phone_number: "+261 32 05 001 27"
+    region: Africa
+  - name: Rafael Saute
+    email: rsaute@worldbank.org
+    country: Mozambique
+    phone_number: "+258 21 482 944"
+    region: Africa
+  - name: Zandi Ratshitanga
+    email: zratshitanga@worldbank.org
+    country: Namibia
+    phone_number: "+27 12 742 3107"
+    region: Africa
+  - name: Mouslim Sidi Mohamed
+    email: msidimohamed@worldbank.org
+    country: Niger
+    phone_number: "+223 2070 2200"
+    region: Africa
+  - name: Mansir Nasir
+    email: mnasir2@worldbank.org
+    country: Nigeria
+    phone_number: "+234 703 583 0641"
+    region: Africa
+  - name: Rogers Kayihura
+    email: rkayihura@worldbank.org
+    country: Rwanda
+    phone_number: "+250 591303 "
+    region: Africa
+  - name: Franck Sydney Bitemo
+    email: fbitemo@worldbank.org
+    country: Sao Tome and Principe
+    phone_number: "+243 08 170 05215"
+    region: Africa
+  - name: Mademba Ndiaye
+    email: mademba@worldbank.org
+    country: Senegal
+    phone_number: "+221 3385 94140"
+    region: Africa
+  - name: Diana Styvanley
+    email: dstyvanley@worldbank.org
+    country: Seychelles
+    phone_number: "+261 32 05 001 27"
+    region: Africa
+  - name: Moses Alex Kargbo
+    email: mkargbo@worldbank.org
+    country: Sierra Leone
+    phone_number: "+232 76 345 930"
+    region: Africa
+  - name: Hugh Riddell
+    email: hriddell@worldbank.org
+    country: Somalia
+    phone_number: "+254 20 2936061"
+    region: Africa
+  - name: Zandi Ratshitanga
+    email: zratshitanga@worldbank.org
+    country: South Africa
+    phone_number: "+27 12 742 3100"
+    region: Africa
+  - name: Gelila Woodeneh
+    email: gwoodeneh@worldbank.org
+    country: South Sudan
+    phone_number: "+251 11 517 6000"
+    region: Africa
+  - name: Adama Coulibaly
+    email: acoulibaly2@worldbank.org
+    country: Sudan
+    phone_number: "+249 15 655 3002"
+    region: Africa
+  - name: Zandi Ratshitanga
+    email: zratshitanga@worldbank.org
+    country: Eswatini
+    phone_number: "+27 12 742 3107"
+    region: Africa
+  - name: Loy Nabeta
+    email: lnabeta@worldbank.org
+    country: Tanzania
+    phone_number: "+255 22 216 3256"
+    region: Africa
+  - name: Christelle Eunice Selom Mensah
+    email: cmensah1@worldbankgroup.org
+    country: Togo
+    phone_number: "+228 2253 6700"
+    region: Africa
+  - name: Keziah Muthembwa
+    email: kmuthembwa@worldbank.org
+    country: Uganda
+    phone_number: "+254 20 2936484"
+    region: Africa
+  - name: Carlyn Hambuba
+    email: chambuba@worldbank.org
+    country: Zambia
+    phone_number: "+260 211 373218"
+    region: Africa
+  - name: Cheryl Khuphe
+    email: ckhuphe@worldbank.org
+    country: Zimbabwe
+    phone_number: "+263 4 369 13 01"
+    region: Africa
+  - name: Kym Smithies
+    email: ksmithies@worldbank.org
+    country:
+    phone_number: "+1 (202) 458-0152"
+    region: East Asia and Pacific
+  - name: Marilene Montemayor
+    email: mmontemayor@worldbank.org
+    country:
+    phone_number: "+1 (202) 473-4709"
+    region: East Asia and Pacific
+  - name: Saroeun Bou
+    email: sbou@worldbank.org
+    country: Cambodia
+    phone_number: "+855 23 861 315"
+    region: East Asia and Pacific
+  - name: Li Li
+    email: lli2@worldbank.org
+    country: China
+    phone_number: "+86 10 5861 7850"
+    region: East Asia and Pacific
+  - name: Lestari Boediono
+    email: lboediono@worldbank.org
+    country: Indonesia
+    phone_number: "+62 21 5299 3156"
+    region: East Asia and Pacific
+  - name: ''
+    email: 'webkorea@worldbank.org '
+    country: South Korea
+    phone_number: "+82 32 713 7000"
+    region: East Asia and Pacific
+  - name: Aiden Glendinning
+    email: laos@worldbank.org
+    country: Lao People's Democratic Republic
+    phone_number: "+856 21 266 278"
+    region: East Asia and Pacific
+  - name: Joshua Foong
+    email: jfoong@worldbank.org
+    country: Malaysia
+    phone_number: "+60 3 22634900"
+    region: East Asia and Pacific
+  - name: Indra Baatarkhuu
+    email: 'ibaatarkhuu@worldbank.org '
+    country: Mongolia
+    phone_number: "+976 70 078 207"
+    region: East Asia and Pacific
+  - name: Arnold Marseille
+    email: amarseille@worldbank.org
+    country: Myanmar
+    phone_number: "+66 612 280 247"
+    region: East Asia and Pacific
+  - name: Tom Perry
+    email: tperry@worldbank.org
+    country: Australia
+    phone_number: "+61 2 9235 6570"
+    region: East Asia and Pacific
+  - name: Ruth Moiam
+    email: rmoiam@worldbank.org
+    country: Papua New Guinea
+    phone_number: "+675 78 180 702"
+    region: East Asia and Pacific
+  - name: David Llorito
+    email: dllorito@worldbank.org
+    country: Philippines
+    phone_number: "+63 2 4652512"
+    region: East Asia and Pacific
+  - name: Kanitha Kongrukgreatiyos
+    email: kanitha@worldbank.org
+    country: Singapore
+    phone_number:
+    region: East Asia and Pacific
+  - name: Kanitha Kongrukgreatiyos
+    email: 'kanitha@worldbank.org '
+    country: Thailand
+    phone_number: "+66 2 686 8385"
+    region: East Asia and Pacific
+  - name: Matt Wilkinson
+    email: mwilkinson@worldbank.org
+    country: Timor-Leste
+    phone_number: "+670 332 4649"
+    region: East Asia and Pacific
+  - name: Ngan Hong Nguyen
+    email: nnguyen5@worldbank.org
+    country: Vietnam
+    phone_number: "+84 4 3934 6600"
+    region: East Asia and Pacific
+  - name: Nicole Frost
+    email: nfrost@worldbankgroup.org
+    country: United States
+    phone_number:
+    region: Europe and Central Asia
+  - name: Ana Gjokutaj
+    email: agjokutaj@worldbank.org
+    country: Albania
+    phone_number: "+355 4 228 06501"
+    region: Europe and Central Asia
+  - name: Vigen Sargsyan
+    email: vsargsyan@worldbank.org
+    country: Armenia
+    phone_number: "+374 10 520992"
+    region: Europe and Central Asia
+  - name: Zaur Rzayev
+    email: rzayev@worldbank.org
+    country: Azerbaijan
+    phone_number: "+994 12 4921941"
+    region: Europe and Central Asia
+  - name: Jasmina Hadzic
+    email: jhadzic@worldbank.org
+    country: Bosnia and Herzegovina
+    phone_number: "+387 33 251 502"
+    region: Europe and Central Asia
+  - name: Ivelina Taushanova
+    email: itaushanova@worldbank.org
+    country: Bulgaria
+    phone_number: "+359 2 969 7239"
+    region: Europe and Central Asia
+  - name: Zarina Nurmukhambetova
+    email: znurmukhambetova@worldbank.org
+    country:
+    phone_number:
+    region: Europe and Central Asia
+  - name: Vanja Frajtic
+    email: vfrajtic@worldbank.org
+    country: Croatia
+    phone_number: "+385 1 2357 230"
+    region: Europe and Central Asia
+  - name: Oliver Joy
+    email: 'ojoy@worldbank.org  '
+    country: Belgium
+    phone_number: "+32 2 552 00 59"
+    region: Europe and Central Asia
+  - name: Irma Gegechkori
+    email: igegechkori@worldbank.org
+    country: Georgia
+    phone_number:
+    region: Europe and Central Asia
+  - name: Shynar Jetpissova
+    email: sjetpissova@worldbank.org
+    country: Kazakhstan
+    phone_number: "+7 7172 69-14-40"
+    region: Europe and Central Asia
+  - name: Lundrim Aliu
+    email: laliu1@worldbank.org
+    country:
+    phone_number: "+52 8210738138224454 "
+    region: Europe and Central Asia
+  - name: Jyldyz Djakypova
+    email: jdjakypova@worldbank.org
+    country:
+    phone_number: "+996 312 625 262"
+    region: Europe and Central Asia
+  - name: Anita Bozinovska
+    email: abozinovska@worldbank.org
+    country: North Macedonia
+    phone_number: "+389 2 311 7159"
+    region: Europe and Central Asia
+  - name: Boris Ciobanu
+    email: bciobanu@worldbank.org
+    country: Moldova
+    phone_number: "+373 22 262 262"
+    region: Europe and Central Asia
+  - name: Jasmina Hadzic
+    email: jhadzic@worldbank.org
+    country: Montenegro
+    phone_number: "+387 33 251 502"
+    region: Europe and Central Asia
+  - name: Filip Kochan
+    email: fkochan@worldbank.org
+    country: Poland
+    phone_number: "+48 22 520 80 00"
+    region: Europe and Central Asia
+  - name: Ioana-Alexandra Irimia
+    email: iirimia@worldbank.org
+    country: Romania
+    phone_number: '0040212010388'
+    region: Europe and Central Asia
+  - name: Vesna Kostic
+    email: vkostic@worldbank.org
+    country: Serbia
+    phone_number: "+381 11 302 3700"
+    region: Europe and Central Asia
+  - name: Nigina Alieva
+    email: nalieva1@worldbank.org
+    country: Tajikistan
+    phone_number: "+992 487 015 807"
+    region: Europe and Central Asia
+  - name: Tunya Celasin
+    email: tcelasin@worldbank.org
+    country: Turkey
+    phone_number: "+90 312 459 8300"
+    region: Europe and Central Asia
+  - name: Oraz Sultanov
+    email: osultanov@worldbank.org
+    country: Turkmenistan
+    phone_number: "+993 12 487 450"
+    region: Europe and Central Asia
+  - name: Dmytro Derkach
+    email: Dderkatch@worldbank.org
+    country: Ukraine
+    phone_number: "+380 44 4906 671"
+    region: Europe and Central Asia
+  - name: Mirzobek Ibragimov
+    email: mibragimov@worldbank.org
+    country: Uzbekistan
+    phone_number: "+998 90 325 2590"
+    region: Europe and Central Asia
+  - name: Yanina Budkin
+    email: ybudkin@worldbank.org
+    country: Argentina, Uruguay, Paraguay
+    phone_number: "+54 11 4316 9700"
+    region: Latin America and Caribbean
+  - name: Ericka Nogales
+    email: enogales@worldbank.org
+    country: Bolivia
+    phone_number: "+591 2 261 3300"
+    region: Latin America and Caribbean
+  - name: Elisa Diniz
+    email: elisadiniz@worldbank.org
+    country: Brazil
+    phone_number: "+55 61 3329 1000"
+    region: Latin America and Caribbean
+  - name: Rossana Luco
+    email: rlucorepossi@worldbank.org
+    country: Chile
+    phone_number: "+56 2 23982400"
+    region: Latin America and Caribbean
+  - name: Jairo Bedoya
+    email: jbedoyavilla@worldbank.org
+    country: Colombia
+    phone_number: "+57 1 326 3600"
+    region: Latin America and Caribbean
+  - name: Cristina Medina
+    email: cmedina1@worldbank.org
+    country: Ecuador
+    phone_number: "+593 2 294 3600"
+    region: Latin America and Caribbean
+  - name: César León
+    email: cleonjuarez@worldbank.org
+    country: El Salvador, Honduras, Guatemala
+    phone_number: "+503 2526 5917"
+    region: Latin America and Caribbean
+  - name: Peleg Charles
+    email: pcharles@worldbank.org
+    country: Haiti
+    phone_number: "+509 37 98 0817"
+    region: Latin America and Caribbean
+  - name: Carlota Molina
+    email: cmolinahernandez@worldbank.org
+    country: Mexico
+    phone_number: "+52 55 5480 4200"
+    region: Latin America and Caribbean
+  - name: Cynthia Flores Mora
+    email: cfloresmora@worldbank.org
+    country: Nicaragua, Panama, Costa Rica
+    phone_number: "+506 2 539 4345"
+    region: Latin America and Caribbean
+  - name: Juan Pablo Casapia
+    email: jcasapiaboero@worldbank.org
+    country: Peru
+    phone_number: "+51 1 622 2300"
+    region: Latin America and Caribbean
+  - name: Ashraf Al-Saeed
+    email: aalsaeed@worldbank.org
+    country: United States
+    phone_number:
+    region: Middle East and North Africa
+  - name: Susan E. Pleming
+    email: spleming@worldbank.org
+    country:
+    phone_number:
+    region: Middle East and North Africa
+  - name: Serene Jweied
+    email: sjweied@worldbankgroup.org
+    country:
+    phone_number:
+    region: Middle East and North Africa
+  - name: Susan E. Pleming
+    email: spleming@worldbank.org
+    country: Algeria, Djibouti
+    phone_number:
+    region: Middle East and North Africa
+  - name: Shahd Alhamdan
+    email: wbgcc@worldbank.org
+    country: Bahrain, Oman, Saudi Arabia
+    phone_number:
+    region: Middle East and North Africa
+  - name: Maissa Abdalla
+    email: mabdalla@worldbank.org
+    country: Egypt
+    phone_number: "+20 2 2461998345"
+    region: Middle East and North Africa
+  - name: Zeina El Khalil
+    email: zelkhalil@worldbank.org
+    country: Iran, Lebanon, Syrian Arab Republic
+    phone_number: "+961 1 963 438"
+    region: Middle East and North Africa
+  - name: Nabeel Darweesh
+    email: ndarweesh@worldbankgroup.org
+    country: Iraq, Jordan
+    phone_number: "+962 7 9827 7215"
+    region: Middle East and North Africa
+  - name: Alya Alaskari
+    email: wbgcc@worldbank.org
+    country: Kuwait, Qatar
+    phone_number: "+965 2291 3524"
+    region: Middle East and North Africa
+  - name: Ebrahim Al-Harazi
+    email: ealharazi@worldbank.org
+    country: Libya, Yemen
+    phone_number: "+1 (202) 855-1565"
+    region: Middle East and North Africa
+  - name: Meryam Benjelloun
+    email: mbenjelloun@worldbankgroup.org
+    country: Morocco
+    phone_number: "+212 53 7544 200"
+    region: Middle East and North Africa
+  - name: Riadh Ammari
+    email: rammari@worldbankgroup.org
+    country: Tunisia
+    phone_number:
+    region: Middle East and North Africa
+  - name: Mary Koussa
+    email: mkoussa@worldbank.org
+    country:
+    phone_number: "+972 2 236 6500"
+    region: Middle East and North Africa
+  - name: Diana Chung
+    email: dchung1@worldbank.org
+    country:
+    phone_number: "+1 (202) 473-8357"
+    region: South Asia
+  - name: ''
+    email: infoafghanistan@worldbank.org
+    country: Afghanistan
+    phone_number:
+    region: South Asia
+  - name: Mehrin A. Mahbub
+    email: mmahbub@worldbank.org
+    country: Bangladesh
+    phone_number: "+880 2 8159001"
+    region: South Asia
+  - name: Mehrin Mahbub
+    email: mmahbub@worldbank.org
+    country: Bhutan
+    phone_number: "+880 2 8159001"
+    region: South Asia
+  - name: Sunita Malhotra
+    email: smalhotra@worldbank.org
+    country: India
+    phone_number: "+91 11 414 79 301"
+    region: South Asia
+  - name: Dilinika Peires
+    email: dpeiris@worldbank.org
+    country: Maldives
+    phone_number: "+94 11 556 13 23"
+    region: South Asia
+  - name: Richa Bhattarai
+    email: rbhattarai@worldbank.org
+    country: Nepal
+    phone_number: "+977 1 423 6249"
+    region: South Asia
+  - name: Mariam Altaf
+    email: Mariamaltaf@worldbank.org
+    country: Pakistan
+    phone_number: "+92 51 9090 139"
+    region: South Asia
+  - name: Dilinika Peires
+    email: dpeiris@worldbank.org
+    country: Sri Lanka
+    phone_number: "+94 11 556 13 23"
+    region: South Asia

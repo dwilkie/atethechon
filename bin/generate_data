@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+# Usage:
+
+# $ generate_data
+
+require "bundler/setup"
+require "atethechon"
+require "pathname"
+require "yaml"
+
+File.write(
+  "data/world_bank.yml",
+  Atethechon::ContactsSerializer.new(
+    contacts: Atethechon::WorldBankParser.new.parse,
+    organization_identifier: :world_bank
+  ).to_yaml
+)
