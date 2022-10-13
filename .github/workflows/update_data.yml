@@ -25,4 +25,4 @@ jobs:
           commit-message: "Update contact data"
           title: "Update contact data"
           labels: "update_data"
-          base: "master"
+          base: "main"
