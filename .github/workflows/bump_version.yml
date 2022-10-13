@@ -13,7 +13,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.x
+        ruby-version: '3'
         bundler-cache: true
 
     - name: Install Dependencies
