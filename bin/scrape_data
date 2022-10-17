@@ -2,7 +2,7 @@
 
 # Usage:
 
-# $ generate_data
+# $ scrape_data
 
 require "bundler/setup"
 require "atethechon"
@@ -11,7 +11,7 @@ require "yaml"
 File.write(
   "data/world_bank.yml",
   Atethechon::ContactsSerializer.new(
-    contacts: Atethechon::WorldBankParser.new.parse,
+    contacts: Atethechon::WorldBankScraper.new.scrape,
     organization_identifier: :world_bank
   ).to_yaml
 )

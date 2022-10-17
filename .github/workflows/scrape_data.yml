@@ -17,8 +17,8 @@ jobs:
           ruby-version: '3'
           bundler-cache: true
 
-      - name: Generate Data
-        run: ./bin/generate_data
+      - name: Scrape Data
+        run: ./bin/scrape_data
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4

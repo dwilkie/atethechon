@@ -1,12 +1,12 @@
 require "spec_helper"
 
 module Atethechon
-  RSpec.describe WorldBankParser do
-    describe "#parse" do
-      it "parses world bank contact data" do
-        parser = WorldBankParser.new
+  RSpec.describe WorldBankScraper do
+    describe "#scrape" do
+      it "scrapes world bank contact data" do
+        scraper = WorldBankScraper.new
 
-        result = parser.parse
+        result = scraper.scrape
 
         expect(result.size).to eq(126)
         expect(result.find { |contact| contact.country == "Cambodia" }).to have_attributes(

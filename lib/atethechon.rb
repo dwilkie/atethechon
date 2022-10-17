@@ -1,7 +1,8 @@
 require_relative "atethechon/data_store"
 require_relative "atethechon/store_cache"
 require_relative "atethechon/contact"
-require_relative "atethechon/parsers"
+require_relative "atethechon/contact_parser"
+require_relative "atethechon/scrapers"
 require_relative "atethechon/serializers"
 
 module Atethechon

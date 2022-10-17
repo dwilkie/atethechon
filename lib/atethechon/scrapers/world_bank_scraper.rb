@@ -5,7 +5,7 @@ require "countries"
 require "phony"
 
 module Atethechon
-  class WorldBankParser
+  class WorldBankScraper
     REGIONS = {
       afr: "Africa",
       eap: "East Asia and Pacific",
@@ -28,7 +28,7 @@ module Atethechon
       "lao pdr" => "LA"
     }.freeze
 
-    def parse
+    def scrape
       fetch_contacts
     end
 

@@ -1,14 +1,12 @@
 require "yaml"
 require "pathname"
 
-require "pry"
-
 module Atethechon
   class ContactParser
     attr_reader :data_directory
 
     def initialize(options = {})
-      @data_directory = options.fetch(:data_directory) { Pathname.new(File.expand_path("../..", File.dirname(__dir__))).join("data") }
+      @data_directory = options.fetch(:data_directory) { Pathname.new(File.expand_path("..", File.dirname(__dir__))).join("data") }
     end
 
     def load
