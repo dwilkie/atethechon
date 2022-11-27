@@ -3,26 +3,26 @@ world_bank:
   contacts:
   - name: Svetlana Markova
     email: smarkova@worldbankgroup.org
-    country:
+    country: 
     phone_number: "+1 (202) 473-3504"
     region: Africa
     organization: World Bank
   - name: Daniella van Leggelo-Padilla
     email: dvanleggelo@worldbank.org
-    country:
+    country: 
     phone_number: "+1 (202) 473-4989"
     region: Africa
     organization: World Bank
   - name: Artem Kolesnikov
     email: akolesnikov@worldbank.org
-    country:
-    phone_number:
+    country: 
+    phone_number: 
     region: Africa
     organization: World Bank
   - name: Ramatoulaye George-Alleyne
     email: afrmultimedia@worldbank.org
-    country:
-    phone_number:
+    country: 
+    phone_number: 
     region: Africa
     organization: World Bank
   - name: Wilson Mbanino Piassa
@@ -259,10 +259,10 @@ world_bank:
     phone_number: "+254 20 2936061"
     region: Africa
     organization: World Bank
-  - name: Zandi Ratshitanga
-    email: zratshitanga@worldbank.org
+  - name: Lavinia Engelbrecht
+    email: mailto:lengelbrecht@worldbankgroup.org
     country: South Africa
-    phone_number: "+27 12 742 3100"
+    phone_number: "+27 73 267 6073"
     region: Africa
     organization: World Bank
   - name: Gelila Woodeneh
@@ -315,13 +315,13 @@ world_bank:
     organization: World Bank
   - name: Kym Smithies
     email: ksmithies@worldbank.org
-    country:
+    country: 
     phone_number: "+1 (202) 458-0152"
     region: East Asia and Pacific
     organization: World Bank
   - name: Marilene Montemayor
     email: mmontemayor@worldbank.org
-    country:
+    country: 
     phone_number: "+1 (202) 473-4709"
     region: East Asia and Pacific
     organization: World Bank
@@ -394,7 +394,7 @@ world_bank:
   - name: Kanitha Kongrukgreatiyos
     email: kanitha@worldbank.org
     country: Singapore
-    phone_number:
+    phone_number: 
     region: East Asia and Pacific
     organization: World Bank
   - name: Kanitha Kongrukgreatiyos
@@ -418,7 +418,7 @@ world_bank:
   - name: Nicole Frost
     email: nfrost@worldbankgroup.org
     country: United States
-    phone_number:
+    phone_number: 
     region: Europe and Central Asia
     organization: World Bank
   - name: Ana Gjokutaj
@@ -453,8 +453,8 @@ world_bank:
     organization: World Bank
   - name: Zarina Nurmukhambetova
     email: znurmukhambetova@worldbank.org
-    country:
-    phone_number:
+    country: 
+    phone_number: 
     region: Europe and Central Asia
     organization: World Bank
   - name: Vanja Frajtic
@@ -472,7 +472,7 @@ world_bank:
   - name: Irma Gegechkori
     email: igegechkori@worldbank.org
     country: Georgia
-    phone_number:
+    phone_number: 
     region: Europe and Central Asia
     organization: World Bank
   - name: Shynar Jetpissova
@@ -483,13 +483,13 @@ world_bank:
     organization: World Bank
   - name: Lundrim Aliu
     email: laliu1@worldbank.org
-    country:
+    country: 
     phone_number: "+52 8210738138224454 "
     region: Europe and Central Asia
     organization: World Bank
   - name: Jyldyz Djakypova
     email: jdjakypova@worldbank.org
-    country:
+    country: 
     phone_number: "+996 312 625 262"
     region: Europe and Central Asia
     organization: World Bank
@@ -628,31 +628,31 @@ world_bank:
   - name: Ashraf Al-Saeed
     email: aalsaeed@worldbank.org
     country: United States
-    phone_number:
+    phone_number: 
     region: Middle East and North Africa
     organization: World Bank
   - name: Susan E. Pleming
     email: spleming@worldbank.org
-    country:
-    phone_number:
+    country: 
+    phone_number: 
     region: Middle East and North Africa
     organization: World Bank
   - name: Serene Jweied
     email: sjweied@worldbankgroup.org
-    country:
-    phone_number:
+    country: 
+    phone_number: 
     region: Middle East and North Africa
     organization: World Bank
   - name: Susan E. Pleming
     email: spleming@worldbank.org
     country: Algeria, Djibouti
-    phone_number:
+    phone_number: 
     region: Middle East and North Africa
     organization: World Bank
   - name: Shahd Alhamdan
     email: wbgcc@worldbank.org
     country: Bahrain, Oman, Saudi Arabia
-    phone_number:
+    phone_number: 
     region: Middle East and North Africa
     organization: World Bank
   - name: Maissa Abdalla
@@ -694,25 +694,25 @@ world_bank:
   - name: Riadh Ammari
     email: rammari@worldbankgroup.org
     country: Tunisia
-    phone_number:
+    phone_number: 
     region: Middle East and North Africa
     organization: World Bank
   - name: Mary Koussa
     email: mkoussa@worldbank.org
-    country:
+    country: 
     phone_number: "+972 2 236 6500"
     region: Middle East and North Africa
     organization: World Bank
   - name: Diana Chung
     email: dchung1@worldbank.org
-    country:
+    country: 
     phone_number: "+1 (202) 473-8357"
     region: South Asia
     organization: World Bank
   - name: ''
     email: infoafghanistan@worldbank.org
     country: Afghanistan
-    phone_number:
+    phone_number: 
     region: South Asia
     organization: World Bank
   - name: Mehrin A. Mahbub
